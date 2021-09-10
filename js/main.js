@@ -1,5 +1,4 @@
 $(document).ready(function() {
-    // process bar
     setTimeout(function() {
         firstQuestion();
         $('.spinner').fadeOut();
@@ -45,11 +44,8 @@ function firstQuestion() {
               center bottom
               no-repeat
             `,
-            //            imageUrl: 'img/firstquestion.JPG',
-            //            imageWidth: 300,
-            //            imageHeight: 300,
             html: "<video width='300px' controls autoplay> <source src = 'video/IMG_E3362.MOV ' > </video> ",
-            background: '#fff url("img/birthday1.jpg")',
+            background: '#fff url("img/birthday.jpg")',
             imageAlt: 'Custom image',
             confirmButtonText: CONFIG.btnIntro
         }).then(function() {
@@ -120,7 +116,6 @@ function textGenerate() {
     setTimeout("textGenerate()", 1);
 }
 
-// show popup
 $('#yes').click(function() {
     var audio = new Audio('sound/tick.mp3');
     audio.play();
