@@ -44,7 +44,7 @@ function firstQuestion() {
               center bottom
               no-repeat
             `,
-            html: "<video width='300px' controls autoplay> <source src = 'video/IMG_E3362.MOV ' <source src='video/IMG_E3362.ogv' /> <source src='video/IMG_E3362.webm' /> > </video> ",
+            html: "<video width='300px' controls autoplay> <source src = 'video/IMG_E3362.MOV ' /> > </video> ",
             background: '#fff url("img/birthday.jpg")',
             imageAlt: 'Custom image',
             confirmButtonText: CONFIG.btnIntro
