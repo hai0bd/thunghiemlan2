@@ -4,6 +4,12 @@
     z-index: 3;
 }
 
+.video{
+    width: 300px;
+    max-width:100%;
+    margin:1.25em auto;
+}
+
 #desck {
     text-align: right;
     max-width: 87%;
