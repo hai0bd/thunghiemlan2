@@ -44,7 +44,7 @@ function firstQuestion() {
               center bottom
               no-repeat
             `,
-            html: "<center><video class='video' width='300px' poster='img/1error.jpg' controls> <source src = 'video/IMG_E3362.mp4 ' /> > Your browser does not support the video tag </video></center> ",
+            html: "<center><video class='video' poster='img/1error.jpg' controls autoplay> <source src = 'video/IMG_E3362.mp4 ' /> > Your browser does not support the video tag </video></center> ",
             background: '#fff url("img/birthday.jpg")',
             imageAlt: 'Custom image',
             confirmButtonText: CONFIG.btnIntro
